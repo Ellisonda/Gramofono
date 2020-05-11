@@ -1,0 +1,28 @@
+.SearchResults {
+    width: 50%;
+    height: 950px;
+    overflow-y: auto;
+    padding: .88rem;
+    background-color: rgba(229, 225, 221, 0.9);
+    box-shadow: 0 4px 2px 2px #000000;
+    font-family: 'Lobster', cursive;
+    color: #272D33;
+    border-radius: 5%;
+  }
+  .SearchResults h2 {
+    font-family: 'Lobster', sans-serif;
+  }
+  .SearchResults p {
+    color: #383C40;
+  }
+  ::-webkit-scrollbar {
+      width: 0px;
+      background: transparent;
+  }
+  
+  @media only screen and (max-width: 1020px) {
+    .SearchResults {
+      width: 90%;
+      margin-bottom: 2rem;
+    }
+  }
