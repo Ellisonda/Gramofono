@@ -1,7 +1,8 @@
 import Searchbar from '../Components/SearchBar/SearchBar';
 
 const clientId='4c18518499644df8bc85f2e642168b4f';
-const redirectUri="http://localhost:3000/";
+const redirectUri="https://heuristic-brown-14bfc6.netlify.app";
+//http://localhost:3000/
 let accessToken;
 const Spotify ={
 getAccessToken(){
